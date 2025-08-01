@@ -32,10 +32,12 @@
   id: Silicon
   coefficients:
     Heat: 0.8
+    Asphyxiation: 0.0 #Ratbites, Airloss isnt repairable, why can they take it?
   flatReductions:
     Blunt: 5
     Slash: 5
     Piercing: 5
+    Asphyxiation: 100 #Ratbites, Airloss isnt repairable, why can they take it?
 
 - type: damageModifierSet
   id: SiliconProtected
@@ -44,10 +46,12 @@
     Slash: 0.6
     Piercing: 0.6
     Heat: 0.5
+    Asphyxiation: 0.0 #Ratbites, Airloss isnt repairable, why can they take it?
   flatReductions:
     Blunt: 5
     Slash: 5
     Piercing: 5
+    Asphyxiation: 100 #Ratbites, Airloss isnt repairable, why can they take it?
 
 - type: damageModifierSet
   id: Yowie
